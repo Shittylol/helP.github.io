@@ -1,0 +1,7 @@
+Información del proyecto: Nosotros somos DataTean, una startup conformado por jóvenes estudiantes de la Universidad Peruana de Ciencias Aplicadas. Conocemos la seriedad que debemos tomar cuando hablamos de desastres naturales en nuestro país y lo importante que es brindar ayuda a aquellos que se ven afectados; es por eso que el enfoque de nuestro proyecto es, mediante el desarrollo de nuestra plataforma y aplicación “helP!”, podremos realizar ayuda humanitaria de una manera fácil, eficaz y segura a quienes la requieren. La plataforma “helP!” nace para poder ofrecer un ambiente intermediario en la asistencia a personas damnificadas debido a resultados de diferentes desastres naturales. Muchas personas interesadas en el tema desean realizar donaciones, pero por diversos motivos se termina desanimando, por lo cual, nuestra plataforma brinda la posibilidad de donar de manera confiable, eficaz y en una plataforma atractiva.
+
+Autores: Aponte Cruzado, Andrea - u202224135 Cáceres Romero, Cristhian Antonio – u202216594 Canal Castillo, David Alejandro - u202221767 Neyra Ramirez, Raissa Polet - u202220387 Palacios Nuñez, Fiorella Jasmin - u202215125
+
+Segmento objetivo: Damnificados: Peruanos afectados por desastres naturales que necesiten ayuda. Donadores: Personas empáticas de cualquier parte del mundo que deseen ayudar a las personas damnificadas.
+
+Principales características: Accesible Fácil uso Llamativa Innovadora
