@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Campaña</title>
+    <link rel="stylesheet" href="styles/damnificado5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>Ingresa los datos para tu donacion</h1>
+            <img src="img/mapa1.png" alt="Mapa de Perú" class="map-image">
+        </div>
+        <div class="right-panel">
+            <form class="campaign-form">
+                <h2>Seleccione el tipo de ayuda a brindar</h2>
+                <label for="name">Nombre del Titular</label>
+                <input type="text" id="name" name="name" value="Fulano Fulano" required>
+                
+                <label for="cell">Celular</label>
+                <input type="text" id="cell" name="cell" value="999999999" required>
+                
+                <label for="city">Ciudad</label>
+                <input type="text" id="city" name="city" value="Lima" required>
+                
+                <label for="bank-account">Número de cuenta bancaria</label>
+                <input type="text" id="bank-account" name="bank-account" value="44443333221111" required>
+                
+                <label for="cci">CCI</label>
+                <input type="text" id="cci" name="cci" value="11112222333444" required>
+                
+                <button type="submit" class="create-button">Crear</button>
+            </form>
+            <div class="popup">
+                <div class="popup-content">
+                    <img src="img/checkmark.png" alt="Checkmark" class="checkmark">
+                    <h3>FELICITACIONES</h3>
+                    <p>acabas de crear una buena causa</p>
+                    <button class="accept-button">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--esto deberia ir el un .js, pero-->
+    <script>
+        document.querySelector('.campaign-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.querySelector('.popup').style.display = 'flex';
+        });
+        
+        document.querySelector('.accept-button').addEventListener('click', function() {
+            document.querySelector('.popup').style.display = 'none';
+        });
+        </script>
+
+
+</body>
+</html>

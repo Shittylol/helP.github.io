@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body
+{
+background-color: black;
+font-family:'Poppins', sans-serif;
+}
+/* Estilos para el contenedor o sea recuadro grande imagen */
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    /*background-color: black;*/
+  }
+  
+  /* image styles*/
+  .yellow-welcome-to {
+    margin-top: 100px; /* margen de imaegn borde arriba*/
+    width: 550px; 
+    margin-bottom: 80px; /* espacio entre la imagen y el botón */
+  }
+  
+  /* Estilos para el contenedor del botón */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*style del botón */
+  .welcome-button {
+    
+    color:rgba(248, 248, 255, 0.916);
+    background-color: #D9D9D9; /* fondo para resaltar el botón */
+    padding: 10px 20px;
+    border: 2px solid rgba(157, 157, 157, 0.632); /*bprde lol*/
+    border-radius: 15px; /* bordes redondeados */
+    box-shadow: 0px 8px 12px rgba(178, 177, 177, 0.733); /* Sombra */
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+ }
+
+  .welcome-button:hover /*cambia de color*/
+  {
+    background: ghostwhite;
+    color:black;
+
+  }
+    
+.botontext{
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+.botontext:hover{
+       outline: none;
+       text-decoration: none;
+       color: #000;
+}

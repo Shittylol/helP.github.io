@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse - helP!</title>
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+<body>
+        <div class="container">
+            <div id="help-info" class="help-info">
+                <div class="logo-container">
+                    <a aria-label="Página de inicio de GoFundMe" href="/">
+                        <img class="logo" src="img/logo.png">
+                    </a>
+                </div>
+                <p class="welcome-message">¡Te damos la bienvenida a helP!</p>
+                <h1 class="title">Crear una cuenta</h1>
+                <div class="button-container"></div>
+            </div>
+            <div id="login-form" class="login-form">
+                <header class="header-content">
+                    <p class="existing-account-text">¿Ya tienes una cuenta?</p>
+                      <a href="login.html">Iniciar sesión</a>
+                </header>
+                <form id="sign-up-form" class="sign-up-form">
+                    <h2 class="form-heading">Datos de tu cuenta</h2>
+                    <div class="user-fullname">
+                        <div class="user-firstname text-field">
+                            <div class="text-field-wrapper">
+                                <div class="text-field-inner">
+                                    <input aria-invalid="false" class="text-field-input" id="firstName" placeholder=" " role="textbox" name="firstName" type="text" value="">
+                                    <label class="text-field-label" for="firstName">Nombre</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-lastname text-field">
+                            <div class="text-field-wrapper">
+                                <div class="text-field-inner">
+                                    <input aria-invalid="false" class="text-field-input" id="lastName" placeholder=" " role="textbox" name="lastName" value="">
+                                    <label class="text-field-label" for="lastName">Apellidos</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-field text-field">
+                        <div class="text-field-wrapper">
+                            <div class="text-field-inner">
+                                <input aria-invalid="false" class="text-field-input" id="email" placeholder=" " role="textbox" name="email" autocapitalize="off" value="">
+                                <label class="text-field-label" for="email">Dirección de email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-confirm-field text-field">
+                        <div class="text-field-wrapper">
+                            <div class="text-field-inner">
+                                <input aria-invalid="false" class="text-field-input" id="emailConfirm" placeholder=" " name="emailConfirm" role="textbox" autocapitalize="off" value="">
+                                <label class="text-field-label" for="emailConfirm">Confirma tu email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="password-field text-field">
+                        <div class="text-field-wrapper">
+                            <div class="text-field-inner">
+                                <input aria-invalid="false" class="text-field-input" id="password" placeholder=" " name="password" role="textbox" type="password" value="">
+                                <label class="text-field-label" for="password">Contraseña</label>
+                                <div class="password-reveal-button-container">
+                                    <button class="password-reveal-button" type="button" aria-label="Revelar contraseña" aria-pressed="false">
+                                        <svg aria-hidden="true" class="icon icon-large" focusable="false" viewBox="0 0 24 24">
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="password-guidance-container">
+                        <div class="password-guidance-title">Tu contraseña debe tener:</div>
+                        <div class="password-guidance-item">
+                            <div class="password-guidance-check">
+                                <div class="password-guidance-bullet"></div>
+                            </div>
+                            <span class="password-guidance-text">Al menos 12 caracteres</span>
+                        </div>
+                        <div class="password-guidance-item">
+                            <div class="password-guidance-check">
+                                <div class="password-guidance-bullet"></div>
+                            </div>
+                            <span class="password-guidance-text">1 letra mayúscula</span> <!--span es contenedor de linea lol-->
+                        </div>
+                        <div class="password-guidance-item">
+                            <div class="password-guidance-check">
+                                <div class="password-guidance-bullet"></div>
+                            </div>
+                            <span class="password-guidance-text">1 letra minúscula</span>
+                        </div>
+                        <div class="password-guidance-item">
+                            <div class="password-guidance-check">
+                                <div class="password-guidance-bullet"></div>
+                            </div>
+                            <span class="password-guidance-text">1 número</span>
+                        </div>
+                        <div class="password-guidance-item">
+                            <div class="password-guidance-check">
+                                <div class="password-guidance-bullet"></div>
+                            </div>
+                            <span class="password-guidance-text">1 símbolo</span>
+                        </div>
+                    </div>
+                    <div class="footer-container">
+                        <p>Al hacer clic en el botón Regístrate que aparece a continuación, aceptas los 
+                            <a class="link" href="#">Términos de Servicio</a> de help! y declaras tu conformidad con la 
+                            <a class="link" href="#">Declaración de Privacidad</a>.
+                        </p>
+                        <button class="register-button" form="sign-up-form" type="submit">
+                            <a href="main.html">Registrarse</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
